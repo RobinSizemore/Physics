@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c7b8q6wbq2qw8"
-path="res://.godot/imported/PhysicsCharacter.png-afc5b5d1723ea67b2722bc89cce1817e.ctex"
+uid="uid://07ls24pke3jv"
+path="res://.godot/imported/Crate.png-a54157a658d29f55aeca66d7fd876180.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/Godot Mini-Projects - Assets/Physics Project/PhysicsCharacter.png"
-dest_files=["res://.godot/imported/PhysicsCharacter.png-afc5b5d1723ea67b2722bc89cce1817e.ctex"]
+source_file="res://Assets/Sprites/Crate.png"
+dest_files=["res://.godot/imported/Crate.png-a54157a658d29f55aeca66d7fd876180.ctex"]
 
 [params]
 

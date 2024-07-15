@@ -1,3 +1,16 @@
-[gd_scene format=3 uid="uid://l3hspdewm4jy"]
+[gd_scene load_steps=3 format=3 uid="uid://l3hspdewm4jy"]
+
+[ext_resource type="PackedScene" uid="uid://dnrtot2g3p6l5" path="res://Scenes/player.tscn" id="1_lltnn"]
+[ext_resource type="PackedScene" uid="uid://balrkjmu6bbg3" path="res://Scenes/crate.tscn" id="2_phftg"]
 
 [node name="Main" type="Node2D"]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(4, 4)
+
+[node name="Player" parent="." instance=ExtResource("1_lltnn")]
+
+[node name="Crate" parent="." instance=ExtResource("2_phftg")]
+position = Vector2(73, 30)
+mass = 10.0
+linear_damp = 5.0
